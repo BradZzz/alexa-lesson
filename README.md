@@ -25,7 +25,9 @@ Follow the same steps as the app above until you get to the Alexa Dashboard
 * Click on "Add a new skill", call it 'Insult'. Make the invocation name 'Insult' as well.
 * Click NEXT
 * Copy the following code into the "Intent Schema" field:
-  `{
+
+```
+{
     "intents": [{
         "intent": "InsultIntent",
         "slots": [{
@@ -33,10 +35,14 @@ Follow the same steps as the app above until you get to the Alexa Dashboard
             "type": "CLASS_ROSTER"
         }]
     }]
-}`
+}
+```
+
 * Click on 'Add Slot Type' and call your new slot 'CLASS_ROSTER'.
 * Add your names separated by a new line for the people you'd like to insult. Here's a list from my previous class.
-  `AUSTRALIAN MATT
+
+  ```
+  AUSTRALIAN MATT
   AMERICAN MATT
   MATT
   COREY
@@ -47,12 +53,18 @@ Follow the same steps as the app above until you get to the Alexa Dashboard
   QINGQING
   BRAD
   AUDREY
-  BETH`
+  BETH
+  ```
+
 * Add this to the sample utterances:
-  `InsultIntent {stname}
+
+  ```
+  InsultIntent {stname}
   InsultIntent insult {stname}
   InsultIntent please insult {stname}  
-  InsultIntent would you kindly insult {stname}`
+  InsultIntent would you kindly insult {stname}
+  ```
+
 * Click NEXT
 * Add your ngrok endpoint to the endpoint field and make sure the endpoint type is https
 * Click NEXT
