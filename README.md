@@ -16,7 +16,7 @@ Welcome to the Alexa Lesson. Today we are going to figure out how the Alexa bot 
 
 To start out, let's navigate to a great tutorial on how to set up the software by [John Wheeler](https://alexatutorial.com/). His github project is called [Flask Ask](https://github.com/johnwheeler/flask-ask) and has a very simple interface for rapid development. Please navigate [here](https://developer.amazon.com/blogs/post/Tx14R0IYYGH3SKT/Flask-Ask-A-New-Python-Framework-for-Rapid-Alexa-Skills-Kit-Development) to follow along with the tutorial.
 
-### Amazon Alexa Dashboard - Insult Generator
+## Amazon Alexa Dashboard - Insult Generator
 <b>The files for this app are in a folder called insulter.</b>
 
 Follow the same steps as the app above until you get to the Alexa Dashboard
