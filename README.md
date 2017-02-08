@@ -26,17 +26,17 @@ Follow the same steps as the app above until you get to the Alexa Dashboard
 * Click NEXT
 * Copy the following code into the "Intent Schema" field:
 
-```
-{
-    "intents": [{
-        "intent": "InsultIntent",
-        "slots": [{
-            "name": "stname",
-            "type": "CLASS_ROSTER"
-        }]
-    }]
-}
-```
+  ```
+  {
+      "intents": [{
+          "intent": "InsultIntent",
+          "slots": [{
+              "name": "stname",
+              "type": "CLASS_ROSTER"
+          }]
+      }]
+  }
+  ```
 
 * Click on 'Add Slot Type' and call your new slot 'CLASS_ROSTER'.
 * Add your names separated by a new line for the people you'd like to insult. Here's a list from my previous class.
